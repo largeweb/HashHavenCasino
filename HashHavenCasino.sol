@@ -4,8 +4,8 @@ pragma solidity ^0.8.4;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract MyToken is ERC20, Ownable {
-    constructor() ERC20("HashHaven", "HHT") {}
+contract HashHavenCasino is ERC20, Ownable {
+    constructor() ERC20("HashHavenToken", "HHT") {}
 
     mapping(address => string) private address2user;
     mapping(string => address) private user2address;
